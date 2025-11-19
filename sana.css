@@ -22,7 +22,7 @@ body {
     width: 402px;
     height: 874px;
     border: 1px solid #000000;
-    padding: 10px;
+    padding: 10px 20px;
     overflow-y: scroll;
 }
 .topsection {
@@ -47,7 +47,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
   margin-top: 10px;
 }
 .search-bar {
@@ -80,7 +79,6 @@ body {
 }
 .section {
   margin-top: 15px;
-  padding: 0 24px;
 }
 .section-title {
     width: 100%;
