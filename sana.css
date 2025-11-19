@@ -83,6 +83,7 @@ body {
   padding: 0 24px;
 }
 .section-title {
+    width: 100%;
   background-color: var(--deliveroo-blue);
   padding: 8px 20px;
   border-radius: 16px;
@@ -150,4 +151,8 @@ body {
     background: #111;
     transform: scale(0.8);
     transform-origin: top left;
+}
+.safezone {
+    height: 70px;
+    width: 100%;
 }
