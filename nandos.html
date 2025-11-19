@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Deliveroo & Nandos</title>
+</head>
+<body>
+    <!-- Restaurant Page -->
+     <div class="nandos-container">
+
+        <!-- safe zone -->
+         <div class="safe-zone"></div>
+
+        <!-- logo -->
+        <div class="logo">
+            <img src="assets/nandos-logo.png" alt="Nandos Logo" class="nandos-logo" title="Nandos">
+        </div>
+
+        <!-- promo banner -->
+        <div>
+            <img src="assets/promo.png" alt="promo banner" class="promo-banner" title="Promo Banner">
+        </div>
+
+        <!-- menu -->
+        <div class="menu-section">
+
+            <div class="row gap-1 outer-option-container">
+                <div class="col-3 option-container">
+                    <div class="option-list">
+                        <a>What's New</a>
+                        <a class="activeBtn" onclick="reveal()" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Menu</a>
+                        <a>Customer Favourites</a>
+                        <a>Promo</a>
+                        <a>Lunch Deals</a>
+                        <a>Starters</a>
+                        <a>Sharing Platters</a>
+                    </div>
+                </div>
+
+                <!-- option reveal -->
+                <div class="col-7 option-reveal collapse" id="collapseExample">
+                    <div class="image-grid">
+                        <img src="assets/burger.png" alt="burger" class="image-option" title="Burgers">
+                        <img src="assets/sides.png" alt="burger" class="image-option" title="Sides">
+                        <img src="assets/lunch.png" alt="burger" class="image-option" title="Lunch Deals">
+                        <img src="assets/desserts.png" alt="burger" class="image-option" title="Desserts">
+                        <img src="assets/kids.png" alt="burger" class="image-option" title="Kids Meals">
+                        <img src="assets/drinks.png" alt="burger" class="image-option" title="Drinks">
+                        <img src="assets/veggie.png" alt="burger" class="image-option" title="Vegetarian">
+                        <img src="assets/other.png" alt="burger" class="image-option" title="Other Items">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- product image -->
+        <div>
+            <img src="assets/second-hero.png" alt="hero" class="product-image">
+        </div>
+
+        <!-- ts&cs -->
+        <p class="terms mt-2">Subject to availability. Participating restaurants only. Service/delivery fees apply. T&Cs</p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
