@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+:root {
+  --nandos-red: #E2231A;
+  --nandos-black: #000000;
+  --nandos-white: #FFFFFF;
+  --deliveroo-blue: #00CCBC;
+  --nandos-font: 'Hammersmith One', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--nandos-font);
+}
+body {
+  background: var(--nandos-white);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.nandos-container {
+    width: 402px;
+    height: 874px;
+    border: 1px solid #000000;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.topsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.topsection .icon {
+  width: 70px;
+  height: 70px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.logo img {
+  width: 160px;
+}
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--deliveroo-blue);
+  border-radius: 20px;
+  padding: 10px 16px;
+}
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 12px;
+}
+.search-icon {
+  width: 20px;
+  height: 10px;
+}
+.search-btn {
+  margin-left: 16px;
+  padding: 10px 24px;
+  background-color: var(--deliveroo-blue);
+  border: none;
+  border-radius: 24px;
+  color: var(--nandos-white);
+  font-size: 16px;
+  cursor: pointer;
+}
+.section {
+  margin-top: 15px;
+  padding: 0 24px;
+}
+.section-title {
+  background-color: var(--deliveroo-blue);
+  padding: 8px 20px;
+  border-radius: 16px;
+  color: var(--nandos-white);
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.card-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.food-card {
+  width: 70px;
+  text-align: center;
+}
+.food-card img {
+  width: 70px;
+  height: 40px;
+  object-fit: cover;
+}
+.food-card p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--nandos-black);
+}
+.brand-card {
+  width: 70px;
+  text-align: center;
+}
+.brand-card img {
+  width: 70px;
+  height: 40px;
+  object-fit: contain;
+}
+.brand-card p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--nandos-black);
+}
+.large-card {
+  width: 95px;
+}
+.large-card img {
+  width: 95px;
+  height: 95px;
+  border-radius: 12px;
+}
+.time-card {
+  width: 95px;
+  height: 95px;
+  border-radius: 12px;
+}
+.time-card img {
+  width: 95px;
+  height: 95px;
+  border-radius: 12px;
+}
+.phone-frame {
+    width: 420px;
+    padding: 10px;
+    border: 12px solid #000;
+    border-radius: 40px;
+    background: #111;
+    transform: scale(0.8);
+    transform-origin: top left;
+}
